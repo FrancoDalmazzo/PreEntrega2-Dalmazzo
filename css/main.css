@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.styleheader {
+    background-color: aquamarine;
+    padding: .5rem 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    list-style-type: none;
+    gap: 1rem;
+    display: flex;
+}
+.menu-link {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+.hero {
+    height: 100vh;
+    background-image: url("../img/Walpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 2rem;
+    border-radius: .5rem;
+    backdrop-filter: blur(4px);
+    color: rgb(49, 49, 49);
+}
+
+.tarjetas{ 
+    padding: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.tarjeta{
+    flex: 1;
+    background-color: aquamarine;
+    border-radius: .5rem;
+    overflow:hidden;
+    
+}
+.tarjeta-info{
+    padding: 2rem;
+}
+
+.tarjeta-img{
+    width: 100%;
+}
+.tarjeta-link{
+    background-color: rgb(22, 80, 107);
+    padding: .25rem .5rem;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.indumentaria{
+    display: flex;
+    
+}
+.ind-hombre{
+    flex: 1;
+    background-image: url(../img/Hombres.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ind-mujer{
+    flex: 1;
+    background-image: url(../img/Mujeres.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ind-text{
+    font-size: 6rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: .5rem;
+    backdrop-filter: blur(4px);
+}
+.link-ind{
+    text-decoration: none;
+}
+
+.suplementos{
+    display: flex;
+    background-image: url(../img/fondo-suplementos.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 3rem;
+    gap: 3rem;
+    justify-content: center;
+    text-align: center; 
+}
+.sup{
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: .5rem;
+    width: 100px;
+    height: 300px;  
+}
+
+.nosotros{
+    display: flex;
+    background-image: url(../img/fondo-nosotros.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    
+    
+   
+}
+.nos-cuadro {
+    padding: .5rem;
+    border: solid;
+    border-color: blueviolet;
+    border-radius: .5rem;
+    background-color: rgba(137, 43, 226, 0.349);
+    width: 400px;
+    align-self: center;
+    
+    
+}
+.nosotros-caja {
+    gap: 2rem;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: .5rem;
+
+}
